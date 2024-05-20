@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visited Sites</h1>
+    <table id="visitedSitesTable">
+        <thead>
+            <tr>
+                <th>Site Name</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be populated by popup.js -->
+        </tbody>
+    </table>
+    <script src="popup.js"></script>
+</body>
+</html>
